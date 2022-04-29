@@ -66,3 +66,51 @@ button.btn_mac {
     font-weight: 900;
     box-shadow: 0 6px 0 0 hsl(233, 99%, 27%)
 }
+
+.box_one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 21px;
+}
+.box_one h2 {
+    font-size: 33px;
+    color: var(--darkGrayishBlue);
+    inline-size: 390px;
+    overflow-wrap: break-word;
+}
+
+.box_one p {
+    line-height: 33px;
+    font-weight: 900;
+    color: var(--grayishBlue);
+    inline-size: 390px;
+    overflow-wrap: break-word;
+    margin: 21px 0 21px 0;
+}
+
+.box_two {
+    margin: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.box_two h3 {
+    font-size: 33px;
+    margin-top: 72px;
+    padding-bottom: 18px;
+    color: var(--darkGrayishBlue);
+}
+.box_two p {
+    color: var(--grayishBlue);
+}
+.box_two img {
+    width: 100%;
+    max-width: 510px;
+    height: auto;
+    margin: 0 auto;
+}
