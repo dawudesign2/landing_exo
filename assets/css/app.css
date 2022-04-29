@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,400;1,600&family=Outfit:wght@300;400;600&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root {
+    /** FONT **/
+    --fontJamjuree: 'Bai Jamjuree', sans-serif;
+    --size: 18px;
+    /** COLOR **/
+    --strongCyan: hsl(171, 66%, 44%);
+    --lightBlue: hsl(233, 100%, 69%);
+    --darkGrayishBlue:  hsl(210, 10%, 33%);
+    --grayishBlue: hsl(201, 11%, 66%);
+}
+body {
+    font-family: var(--fontJamjuree);
+    font-size: var(--size);
+}
+.header {
+    background: url(../img/bg-header-mobile.png) no-repeat;
+    background-size: contain;
+    height: 900px;
+
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+.header img {
+    height: auto;
+    max-width: 180px;
+    width: 100%;
+}
+.header h1 {
+    text-align: center;
+    inline-size: 360px;
+    overflow-wrap: break-word;
+    color: var(--darkGrayishBlue);
+    font-weight: 900;
+    margin: 72px 0 27px 0;
+
+}
+.header p {
+    color: var(--grayishBlue);
+    font-weight: 900;
+    inline-size: 390px;
+    overflow-wrap: break-word;
+    text-align: center;
+    margin-bottom: 60px;
+}
+button {
+    border: none;
+    border-radius: 33px;
+    padding: 21px 120px 21px 120px;
+    margin: 12px;
+}
+
+button.btn_ios {
+    background-color: var(--strongCyan);
+    color: #fff;
+    font-weight: 900;
+    box-shadow: 0 6px 0 0 hsl(171, 65%, 27%);
+} 
+
+button.btn_mac {
+    background-color: var(--lightBlue);
+    color: #fff;
+    font-weight: 900;
+    box-shadow: 0 6px 0 0 hsl(233, 99%, 27%)
+}
